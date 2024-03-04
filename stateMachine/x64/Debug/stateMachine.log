@@ -1,10 +1,13 @@
 ﻿  aStateMachine.cpp
-D:\rtthread_hardware_i2c_driver\astateMachine\stateMachine\aStateMachine.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  (编译源文件“aStateMachine.cpp”)
-  
   stateMachine.cpp
-D:\rtthread_hardware_i2c_driver\astateMachine\stateMachine\aStateMachine.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  (编译源文件“stateMachine.cpp”)
-  
   正在生成代码...
-  stateMachine.vcxproj -> D:\rtthread_hardware_i2c_driver\astateMachine\x64\Debug\stateMachine.exe
+stateMachine.obj : error LNK2019: 无法解析的外部符号 aState_Init，函数 main 中引用了该符号
+stateMachine.obj : error LNK2019: 无法解析的外部符号 aState_excution，函数 main 中引用了该符号
+stateMachine.obj : error LNK2019: 无法解析的外部符号 aState_entry，函数 main 中引用了该符号
+stateMachine.obj : error LNK2019: 无法解析的外部符号 aState_exit，函数 main 中引用了该符号
+stateMachine.obj : error LNK2019: 无法解析的外部符号 aStateMachine_showStates，函数 main 中引用了该符号
+stateMachine.obj : error LNK2019: 无法解析的外部符号 aStateMachine_addState，函数 main 中引用了该符号
+stateMachine.obj : error LNK2019: 无法解析的外部符号 aStateMachine_addTransition1，函数 main 中引用了该符号
+stateMachine.obj : error LNK2019: 无法解析的外部符号 condition，函数 main 中引用了该符号
+stateMachine.obj : error LNK2019: 无法解析的外部符号 aStateMachine_update，函数 main 中引用了该符号
+D:\out\competition\construction robot\state_machine\x64\Debug\stateMachine.exe : fatal error LNK1120: 9 个无法解析的外部命令
